@@ -1,5 +1,12 @@
+import client from "@/contentful";
+import HeaderLogo from "@/components/HeaderLogo";
+
 const Home = () => (
-  <h1>Hello world!</h1>
+  <section className="header">
+    <div className="container">
+      <HeaderLogo className="header__logo" />
+    </div>
+  </section>
 );
 
 export default Home;
