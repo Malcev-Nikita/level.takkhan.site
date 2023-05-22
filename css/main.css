@@ -12072,9 +12072,33 @@ textarea.form-control-lg {
 }
 .header .container {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+}
+.header .container h1, .header .container .h1 {
+  font-size: 15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0.8;
+  text-indent: -40px;
+  margin-top: 20px;
+  color: var(--third_color);
+}
+.header .container h1 span:nth-child(1), .header .container .h1 span:nth-child(1) {
+  margin-left: 1px;
+}
+.header .container h1 u, .header .container .h1 u {
+  text-decoration: none;
+  font-size: 12rem;
+  margin-left: 100px;
+  color: var(--bg_color);
+}
+.header .container svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 :root {
@@ -12094,6 +12118,7 @@ html, body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "FoglihtenNo06";
+  line-height: 1;
 }
 
 .text-regular {

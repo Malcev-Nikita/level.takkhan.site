@@ -7,6 +7,30 @@
     
     .container
         height: 100%
-        display: flex
-        justify-content: center
-        align-items: center
+        position: relative
+
+        h1
+            font-size: 15rem
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            line-height: 0.8
+            text-indent: -40px
+            margin-top: 20px
+            color: var(--third_color)
+
+            span:nth-child(1)
+                margin-left: 1px
+
+            u
+                text-decoration: none
+                font-size: 12rem
+                margin-left: 100px
+                color: var(--bg_color)
+        
+        svg
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
