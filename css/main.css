@@ -12042,6 +12042,9 @@ textarea.form-control-lg {
   width: 100%;
   z-index: 10;
 }
+.nav__static {
+  position: static;
+}
 .nav .container {
   display: flex;
   justify-content: space-between;
@@ -12123,6 +12126,66 @@ textarea.form-control-lg {
 .footer__block h5, .footer__block .h5 {
   opacity: 0.69;
   font-size: 14px;
+}
+
+.portfolio {
+  margin: 50px 0px;
+}
+.portfolio__header {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.portfolio__header::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: var(--third_color);
+  margin-top: 5x;
+}
+.portfolio__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.portfolio__item {
+  width: 48%;
+}
+.portfolio__item img {
+  width: 100%;
+  height: 483px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+}
+.portfolio__item p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 20px 0;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.portfolio__item p::before, .portfolio__item p::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  border-radius: 10px;
+  background-color: var(--second_color);
+  right: -20px;
+}
+.portfolio__item p::before {
+  transform: rotate(45deg);
+  top: 4.5px;
+}
+.portfolio__item p::after {
+  transform: rotate(-45deg);
+  bottom: 4.5px;
 }
 
 :root {

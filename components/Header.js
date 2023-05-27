@@ -28,7 +28,7 @@ const Header = () => {
     }
     else {
         return (
-            <nav className="nav">
+            <nav className="nav nav__static">
                 <div className="container">
                     <Link href="/" className="logo"><Logo/></Link>
                 </div>

@@ -1,10 +1,9 @@
-// 'use client';
 
-import client from "@/contentful";
+async function getPortfolio() {
+  const response = await fetch('')
+}
 
 const Event = () => {
-  console.log(client);
-
   return (
     <div className="app">
       <h2>Портфолио</h2>    

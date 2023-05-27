@@ -1,4 +1,3 @@
-import client from "@/contentful";
 import HeaderLogo from "@/components/HeaderLogo";
 
 const Home = () => (
