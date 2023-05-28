@@ -11945,7 +11945,7 @@ textarea.form-control-lg {
   gap: 44px;
   color: var(--main_color);
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0;
 }
 .nav__ul a {
@@ -11968,7 +11968,7 @@ textarea.form-control-lg {
   position: relative;
 }
 .header .container h1, .header .container .h1 {
-  font-size: 15rem;
+  font-size: 240px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11983,7 +11983,7 @@ textarea.form-control-lg {
 }
 .header .container h1 u, .header .container .h1 u {
   text-decoration: none;
-  font-size: 12rem;
+  font-size: 144px;
   margin-left: 100px;
   color: var(--bg_color);
 }
@@ -12024,6 +12024,7 @@ textarea.form-control-lg {
   font-size: 5rem;
   text-transform: uppercase;
   display: inline-block;
+  margin-left: 80px;
   margin-bottom: 0;
 }
 .portfolio__header::after {
@@ -12102,7 +12103,9 @@ textarea.form-control-lg {
   font-size: 5rem;
   text-transform: uppercase;
   display: inline-block;
+  margin-left: 80px;
   margin-bottom: 0;
+  font-size: 70px;
 }
 .services__header::after {
   content: "";
@@ -12134,10 +12137,11 @@ textarea.form-control-lg {
   font-size: 5rem;
   text-transform: uppercase;
   display: inline-block;
+  margin-left: 80px;
   margin-bottom: 0;
   margin-left: 0px;
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 .services__item_header::after {
   content: "";
@@ -12151,7 +12155,7 @@ textarea.form-control-lg {
 }
 .services__item_description {
   font-family: "Commissioner-Light";
-  font-size: 1.125rem;
+  font-size: 18px;
   width: 70%;
   line-height: 1.2;
   font-weight: 400;
