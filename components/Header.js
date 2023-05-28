@@ -11,6 +11,8 @@ const Header = () => {
     if (pathname === '/') {
         return (
             <nav className="nav">
+                <div className="nav__opacity"></div>
+
                 <div className="container">
                     <Link href="/" className="logo"><Logo/></Link>
     
@@ -29,6 +31,8 @@ const Header = () => {
     else {
         return (
             <nav className="nav nav__static">
+                <div className="nav__opacity"></div>
+                
                 <div className="container">
                     <Link href="/" className="logo"><Logo/></Link>
                 </div>
