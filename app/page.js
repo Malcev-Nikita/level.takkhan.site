@@ -97,7 +97,7 @@ const Home = () => (
       </div>
     </section>
 
-    <section className="portfolio portfolio-main">
+    <section className="portfolio-main">
       <div className="container">
         <h2 className="portfolio__header">Портфолио</h2>
 
@@ -129,7 +129,58 @@ const Home = () => (
 
     <section className="team">
       <div className="container">
-        
+        <h2 className="team__header">Наша команда</h2>
+
+        <p className="team__subheader">Те, кто создают ваши мероприятия</p>
+
+        <div className="team__content">
+          <div className="team__item">
+            <img src="/image/img/team1.png" alt="" />
+
+            <p className="team__item_fullname">чурсина мария</p>
+            <p className="team__item_descr">совладелица агентства по организации бизнес-мероприятий «LEVEL»</p>
+          </div>
+
+          <div className="team__item">
+            <img src="/image/img/team2.png" alt="" />
+
+            <p className="team__item_fullname">Кузнецова Екатерина</p>
+            <p className="team__item_descr">совладелица агентства по организации бизнес-мероприятий «LEVEL»</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="client">
+      <div className="container">
+        <h2 className="client__header">наши клиенты</h2>
+
+
+        <div className="client__content">
+          <div className="client__item">
+            <img src="/image/icon/client1.svg" alt="" />
+          </div>
+
+          <div className="client__item">
+            <img src="/image/icon/client2.svg" alt="" />
+          </div>
+
+          <div className="client__item">
+            <img src="/image/icon/client3.svg" alt="" />
+          </div>
+
+          <div className="client__item">
+            <img src="/image/icon/client4.svg" alt="" />
+          </div>
+
+          <div className="client__item">
+            <img src="/image/icon/client5.svg" alt="" />
+          </div>
+
+          <div className="client__item">
+            <img src="/image/icon/client6.svg" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   </div>

@@ -11,7 +11,7 @@ export const metadate = {
 }
 
 async function getData() {
-  const res = await fetch('http://localhost:1337/portfolios');
+  const res = await fetch('http://localhost:1337/portfolios?_limit=20');
 
   return res.json();
 }
