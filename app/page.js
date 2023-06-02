@@ -183,6 +183,55 @@ const Home = () => (
         </div>
       </div>
     </section>
+
+    <section className="contacts">
+      <div className="container">
+        <div className="contacts__item">
+          <h2 className="contacts__header">Контакты</h2>
+
+          <p className="contacts__descr">Свяжитесь с нами и мы организуем лучшее мероприятие для Вас</p>
+
+          <div className="contacts__item">
+            <p>Телефоны:</p>
+
+            <div>
+              <a href="tel:79608570375">+7 (960) 857-03-75</a>
+              <a href="tel:79608558805">+7 (960) 855-88-05</a>
+            </div>
+          </div>
+
+          <div className="contacts__item">
+            <p>E-mail:</p>
+
+            <div>
+              <a href="mailto:agencylevel30@yandex.ru">agencylevel30@yandex.ru</a>
+            </div>
+          </div>
+
+          <div className="contacts__item">
+            <p>Соцсети:</p>
+
+            <div>
+              <a href="#">
+                <img href="" alt="" />
+              </a>
+
+              <a href="#">
+                <img href="" alt="" />
+              </a>
+
+              <a href="#">
+                <img href="" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="contacts__item">
+          
+        </div>
+      </div>
+    </section>
   </div>
 );
 
